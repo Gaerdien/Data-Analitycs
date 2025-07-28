@@ -1,0 +1,58 @@
+14/05/2025
+
+Este conjunto de dados apresenta as taxas de incidência e mortalidade por câncer, padronizadas por idade, por 100.000 habitantes em países ao redor do mundo, com base em dados de 2022. Inclui estatísticas globais gerais sobre o câncer, dados específicos por gênero e destaca disparidades entre regiões. É útil para pesquisas epidemiológicas, análises em saúde pública e projetos de visualização.
+
+Público-alvo:
+
+Pesquisadores de saúde pública estudando tendências e disparidades globais do câncer
+
+Cientistas de dados e analistas criando visualizações ou modelos preditivos
+
+Estudantes e educadores explorando dados epidemiológicos do mundo real
+
+CSV:
+
+Incidência global geral de câncer (2022)
+
+Incidência global de câncer em homens e mulheres (2022)
+
+Mortalidade global geral por câncer (2022)
+
+Mortalidade global por câncer em homens e mulheres (2022)
+
+Frequência de câncer
+
+Fonte:
+https://en.wikipedia.org/wiki/List_of_countries_by_cancer_rate
+
+Autores:
+Shuvo Kumar Basak
+
+========================
+
+19/05/2025
+
+Descrição e informações das tabelas utilizadas:
+
+- A Tabela "Cancer Frequency" demonstra a incidência de câncer nos 49 países apresentados numa base de 100 mil habitantes. Dentro dessa tabela, encontramos duas colunas, o nome de cada País e seu índice de incidência de câncer.
+
+- A Tabela "Global Cancer Incidence in Males and Females" demonstra a incidência de câncer em 186 países, também com base em 100 mil habitantes. Dentro dessa tabela, encontramos nove colunas, as quais indicam respectivamente, o nome do País, o número de pessoas do gênero masculino com câncer incluindo câncer de pele do tipo Melanoma, a incidência de câncer em pessoas do gênero masculino incluindo câncer de pele do tipo Melanoma, o número de pessoas do gênero masculino com câncer não incluindo câncer de pele do tipo Melanoma, a incidência de câncer em pessoas do gênero masculino não incluindo câncer de pele do tipo Melanoma, o número de pessoas do gênero feminino com câncer incluindo câncer de pele do tipo Melanoma, a incidência de câncer em pessoas do gênero feminino incluindo câncer de pele do tipo Melanoma, o número de pessoas do gênero feminino com câncer não incluindo câncer de pele do tipo Melanoma e a incidência de câncer em pessoas do gênero feminino não incluindo câncer de pele do tipo Melanoma. 
+
+- A Tabela "Global Cancer Mortality in Males and Females" demonstra a taxa e o número de mortalidades nos mesmos 186 países com base em 100 mil habitantes. Dentro dessa tabela, encontramos nove colunas, as quais indicam respectivamente o nome do País, o número de mortalidades de pessoas do gênero masculino com câncer incluindo câncer de pele do tipo Melanoma, a incidência de mortalidades de câncer em pessoas do gênero masculino incluindo câncer de pele do tipo Melanoma, o número de mortalidades de pessoas do gênero masculino com câncer não incluindo câncer de pele do tipo Melanoma, a incidência de mortalidades de câncer em pessoas do gênero masculino não incluindo câncer de pele do tipo Melanoma, o número de mortalidades de pessoas do gênero feminino com câncer incluindo câncer de pele do tipo Melanoma, a incidência de mortalidades de câncer em pessoas do gênero feminino incluindo câncer de pele do tipo Melanoma, o número de mortalidades de pessoas do gênero feminino com câncer não incluindo câncer de pele do tipo Melanoma e a incidência de mortalidades de câncer em pessoas do gênero feminino não incluindo câncer de pele do tipo Melanoma.
+
+- A Tabela "Overral Global Cancer Incidence" demonstra a incidência de câncer em 186 países, com base em 100 mil habitantes. Dentro da tabela, encontramos cinco colunas, as quais indicam respectivamente, o nome do País, o número de pessoas com câncer incluindo câncer de pele do tipo Melanoma, a incidência de câncer incluindo câncer de pele do tipo Melanoma, o número de pessoas com câncer não incluindo câncer de pele do tipo Melanoma e a incidência de câncer em pessoas não incluindo câncer de pele do tipo Melanoma.
+
+- A Tabela "Overral Glocal Cancer Mortality" demonstra a incidência de câncer em 186 países, com base em 100 mil habitantes. Dentro da tabela, encontramos cinco colunas, as quais indicam respectivamente, o nome do País, o número de mortalidades de pessoas com câncer incluindo câncer de pele do tipo Melanoma, a incidência de mortalidades de câncer incluindo câncer de pele do tipo Melanoma, o número de mortalidades de pessoas com câncer não incluindo câncer de pele do tipo Melanoma e a incidência de mortalidades de câncer em pessoas não incluindo câncer de pele do tipo Melanoma.
+
+Objetivo da análise:
+
+A análise dessas tabelas e a correlação entre os índices de ocorrência e mortalidade de câncer em cada País podem ser úteis para pesquisas em áreas da saúde, com intuito de caracterizar e investigar os motivos pelos quais países em específico possuem maior incidência de câncer tanto na população masculina quanto feminina.
+Dentro das tabelas, podemos ver a sigla NMSC (Non-Melanoma Skin Cancer, ou, Câncer de Pele não Melanoma) que mostra o impacto do câncer do tipo Melanoma nos índices mundiais, sendo assim necessária atenção aos números apresentados no contexto geral.
+
+Escopo:
+
+Pretendo com esta análise, demonstrar os índices dos países com maior número de incidências e mortalidades de câncer no contexto mundial, reforçando a atenção para os países destacados, podendo indicar estilos de vida ou práticas diárias prejudiciais a saúde, ou até mesmo condições genéticas herdadas por gerações.
+
+Ligação entre as tabelas:
+
+Todas as tabelas apresentam dados relevantes de cada país, onde a Chave Primária vem da Tabela "countries", a classe "id".
